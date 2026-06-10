@@ -64,6 +64,7 @@ const TARGETS = [
   { name: 'Hermes Agent',  dir: '.hermes/skills',            detect: ['.hermes', 'HERMES.md', '.hermes.md'] },
   { name: 'Claw Code',     dir: '.claw/skills',              detect: ['.claw', 'CLAW.md'] },
   { name: 'Qoder',         dir: '.qoder/skills',             detect: '.qoder' },
+  { name: 'Pi',            dir: '.agents/skills',            detect: '.agents' },
 ];
 
 function countDirs(dir) {
@@ -432,6 +433,7 @@ const TOOL_ALIASES = {
   'claw-code':    'Claw Code',
   'clawcode':     'Claw Code',
   'qoder':        'Qoder',
+  'pi':           'Pi',
 };
 
 function showHelp() {
