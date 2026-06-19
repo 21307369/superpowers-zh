@@ -26,6 +26,7 @@
     ".codex-plugin/",
     ".opencode/INSTALL.md",
     ".opencode/plugins/",
+    ".pi/extensions/",
     "CLAUDE.md",
     "GEMINI.md",
     "RELEASE-NOTES.md",
@@ -62,8 +63,17 @@
     "中文",
     "tdd",
     "debugging",
-    "code-review"
+    "code-review",
+    "pi-package"
   ],
+  "pi": {
+    "skills": [
+      "./skills"
+    ],
+    "extensions": [
+      "./.pi/extensions/superpowers.ts"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jnMetaCode/superpowers-zh.git"
